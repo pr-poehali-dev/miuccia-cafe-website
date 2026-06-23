@@ -72,14 +72,15 @@ const Index = () => {
         <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
           <div className="animate-fade-up">
             <p className="text-miuccia-cream uppercase tracking-[0.4em] text-xs mb-5">Кафе · с 2014 года</p>
-            <h1 className="font-display text-white text-6xl md:text-8xl leading-[0.9] font-bold">
-              Вкус<br/>
-              <span className="italic text-miuccia-beige">маленькой</span><br/>
-              Италии
+            <p className="text-miuccia-cream/80 uppercase tracking-widest text-sm mb-4 font-sans">Миучча это —</p>
+            <h1 className="font-display text-white text-5xl md:text-7xl leading-[1.05] font-bold">
+              Любимая<br/>
+              <span className="italic text-miuccia-beige">пицца,</span><br/>
+              Булочки,<br/>
+              <span className="italic text-miuccia-beige">Свежая паста,</span><br/>
+              Кофе и<br/>
+              <span className="italic text-miuccia-beige">коктейли.</span>
             </h1>
-            <p className="mt-7 text-miuccia-cream/90 max-w-md text-lg">
-              Уютное кафе в сердце города, где каждое блюдо — это история, а кофе наливают как обнимают.
-            </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Button className="bg-miuccia-red hover:bg-white hover:text-miuccia-ink text-white rounded-none uppercase tracking-widest h-12 px-8">
                 Забронировать столик
@@ -112,14 +113,16 @@ const Index = () => {
           <div>
             <p className="text-miuccia-red uppercase tracking-[0.4em] text-xs mb-4">Наша история</p>
             <h2 className="font-display text-5xl md:text-6xl font-bold leading-tight mb-6">
-              Концепция, рождённая на кухне бабушки
+              Наше кафе
             </h2>
             <p className="text-miuccia-ink/80 text-lg mb-4">
-              Miuccia началась с одной мечты — перенести тёплую неаполитанскую кухню в наш город.
-              Мы готовим пасту вручную каждое утро, обжариваем кофе сами и встречаем гостей как родных.
+              Мы расположились в самом центре города — в трёхэтажном здании 1936 года с колоннами и большими панорамными окнами, в котором в советские годы располагался «Дом Моды» местной швейной фабрики.
+            </p>
+            <p className="text-miuccia-ink/80 text-lg mb-4">
+              Миучча — городское кафе, пропитанное любовью к Италии, в котором можно начать день за завтраком с любимыми блинчиками и игристым, сытными панкейками и горячим фильтром. Каждое утро мы пополняем витрину свежеиспеченными сдобными булочками.
             </p>
             <p className="text-miuccia-ink/80 text-lg">
-              Ромбы, клетка, насыщенный красный — наш визуальный язык, такой же характерный, как и вкус блюд.
+              После завтрака мы готовим для вас два вида пиццы — неаполитанскую с пышными бортиками и тонкую римскую, а ещё пасту из твёрдых сортов пшеницы. В основном меню каждый из вас найдёт что-то своё — миланский шницель из цыплёнка или стейк из тунца с овощами.
             </p>
             <div className="mt-8 flex gap-10">
               <div><span className="font-display text-5xl font-bold text-miuccia-red">12</span><p className="uppercase text-xs tracking-widest mt-1">лет вместе</p></div>

@@ -135,9 +135,9 @@
     background-position:
       0 0,
       24px 0,
-      24px 24px,
-      0 24px;
-    background-size: 48px 48px;
+      24px 48px,
+      0 48px;
+    background-size: 48px 96px;
   }
   .border-harlequin-left {
     left: 0;

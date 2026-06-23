@@ -27,7 +27,7 @@ const gallery = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-miuccia-cream text-miuccia-ink overflow-x-hidden md:px-12">
+    <div className="min-h-screen bg-miuccia-red text-miuccia-ink overflow-x-hidden md:px-12">
       {/* Окантовка-ромб по всему периметру */}
       <div className="border-harlequin border-harlequin-left hidden md:block" />
       <div className="border-harlequin border-harlequin-right hidden md:block" />
@@ -35,14 +35,14 @@ const Index = () => {
       <div className="border-harlequin-bottom hidden md:block" />
 
       {/* NAV */}
-      <header className="sticky top-0 z-50 border-b-2 border-miuccia-ink bg-miuccia-cream/90 backdrop-blur">
+      <header className="sticky top-0 z-50 border-b-2 border-miuccia-ink bg-miuccia-red/95 backdrop-blur">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="#hero" className="font-display text-3xl font-bold tracking-tight">Miuccia</a>
+          <a href="#hero" className="font-display text-3xl font-bold tracking-tight text-white">Miuccia</a>
           <nav className="hidden md:flex items-center gap-8 text-sm uppercase tracking-[0.2em]">
-            <a href="#menu" className="hover:text-miuccia-red transition-colors">Меню</a>
-            <a href="#about" className="hover:text-miuccia-red transition-colors">О нас</a>
-            <a href="#gallery" className="hover:text-miuccia-red transition-colors">Интерьер</a>
-            <a href="#contact" className="hover:text-miuccia-red transition-colors">Контакты</a>
+            <a href="#menu" className="text-white hover:text-miuccia-beige transition-colors">Меню</a>
+            <a href="#about" className="text-white hover:text-miuccia-beige transition-colors">О нас</a>
+            <a href="#gallery" className="text-white hover:text-miuccia-beige transition-colors">Интерьер</a>
+            <a href="#contact" className="text-white hover:text-miuccia-beige transition-colors">Контакты</a>
           </nav>
           <Button className="bg-miuccia-red hover:bg-miuccia-ink text-white rounded-none uppercase tracking-widest text-xs h-10 px-5">
             Бронь
@@ -131,7 +131,7 @@ const Index = () => {
       </section>
 
       {/* MENU */}
-      <section id="menu" className="py-24 bg-miuccia-ink text-miuccia-cream">
+      <section id="menu" className="py-24 pattern-grid text-miuccia-cream relative">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-miuccia-red uppercase tracking-[0.4em] text-xs mb-4">Что мы готовим</p>
@@ -181,7 +181,7 @@ const Index = () => {
       </section>
 
       {/* CONTACT + RESERVATION */}
-      <section id="contact" className="py-24 pattern-grid relative">
+      <section id="contact" className="py-24 pattern-grid relative text-miuccia-cream">
         <div className="relative max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
           <div className="text-white">
             <h2 className="font-display text-6xl font-bold mb-8">Найти нас</h2>

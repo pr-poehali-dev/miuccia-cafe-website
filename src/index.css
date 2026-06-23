@@ -137,6 +137,26 @@
   .border-harlequin-right {
     right: 0;
   }
+  /* Горизонтальная окантовка-ромб сверху и снизу */
+  .border-harlequin-top,
+  .border-harlequin-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 40px;
+    z-index: 60;
+    pointer-events: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40'%3E%3Crect width='80' height='40' fill='white'/%3E%3Cpolygon points='0,20 40,0 80,20 40,40' fill='%23111'/%3E%3C/svg%3E");
+    background-size: 80px 40px;
+    background-repeat: repeat-x;
+  }
+  .border-harlequin-top {
+    top: 0;
+  }
+  .border-harlequin-bottom {
+    bottom: 0;
+  }
   /* Зелёно-белая тонкая клетка */
   .pattern-grid {
     background-color: #3e5641;

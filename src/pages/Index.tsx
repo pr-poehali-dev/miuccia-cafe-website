@@ -28,9 +28,11 @@ const gallery = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-miuccia-cream text-miuccia-ink overflow-x-hidden md:px-12">
-      {/* Окантовка-ромб по краям */}
+      {/* Окантовка-ромб по всему периметру */}
       <div className="border-harlequin border-harlequin-left hidden md:block" />
       <div className="border-harlequin border-harlequin-right hidden md:block" />
+      <div className="border-harlequin-top hidden md:block" />
+      <div className="border-harlequin-bottom hidden md:block" />
 
       {/* NAV */}
       <header className="sticky top-0 z-50 border-b-2 border-miuccia-ink bg-miuccia-cream/90 backdrop-blur">
